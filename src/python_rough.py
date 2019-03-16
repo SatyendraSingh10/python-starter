@@ -69,3 +69,19 @@ while squares[i] == 'orange':
     i += 1
 
 print(new_squares)
+
+x = 1
+
+if x != 1:
+
+    print('Hello')
+
+else:
+
+    print('Hi')
+
+print('Mike')
+
+A = ['1', '2', '3']
+for a in A:
+    print(2 * a)

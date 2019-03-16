@@ -17,11 +17,16 @@ def add(b):
 c = add(10)
 print(c)
 
-
-def f(*x):
-    return sum(c)
-
-
-print(f(2, 3))
 # call to hello python
 hello_python_function()
+
+
+def delta(x):
+    if x == 0:
+        y = 1
+    else:
+        y = 0
+    return y
+
+
+print(delta(0))

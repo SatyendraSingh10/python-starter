@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-% matplotlib
-inline
+%matplotlib inline
 
 
 class Circle(object):
