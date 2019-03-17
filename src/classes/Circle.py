@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 
 class Circle(object):
@@ -13,7 +12,7 @@ class Circle(object):
         return self.radius
 
     # Method
-    def drawCircle(self):
+    def draw_circle(self):
         plt.gca().add_patch(plt.Circle((0, 0), radius=self.radius, fc=self.color))
         plt.axis('scaled')
         plt.show()

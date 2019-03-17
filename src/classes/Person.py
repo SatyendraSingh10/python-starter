@@ -8,10 +8,10 @@ class Person:
         print('My age : ' + str(self.age))
 
 
-# set name and age to class object
+# set name and age to classes object
 p1 = Person('satyendra', 30)
 print(p1.name)
 print(p1.age)
 
-# us class function
+# us classes function
 print(p1.info())
